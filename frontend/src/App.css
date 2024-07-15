@@ -1,0 +1,134 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.upload-container {
+  margin: 20px 0;
+}
+
+.upload-container input[type="file"] {
+  display: none;
+}
+
+.upload-container button {
+  background-color: #075b72;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.upload-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.message {
+  margin: 10px 0;
+  color: #007bff;
+}
+
+.preview-container {
+  margin: 20px 0;
+}
+
+.preview-container img {
+  max-width: 100%;
+  max-height: 300px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.image-item img {
+  max-width: 100%;
+  max-height: 200px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.image-name {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.product-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.image-section {
+  margin-right: 20px;
+}
+
+.detailed-image {
+  max-width: 100%;
+  max-height: 400px;
+  border: 1px solid #ccc;
+}
+
+.image-details {
+  margin-top: 20px;
+}
+
+.image-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.image-details p {
+  margin-bottom: 8px;
+}
+
+.recommended-section {
+  flex: 1;
+}
+
+.recommended-products {
+  margin-top: 20px;
+}
+
+.recommended-product-item {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.recommended-product-item img {
+  max-width: 100%;
+  max-height: 200px;
+  border: 1px solid #ccc;
+}
+
+.recommended-product-item p {
+  margin-bottom: 8px;
+}
