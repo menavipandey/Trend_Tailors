@@ -9,7 +9,7 @@ Trend Tailors is a web application that allows users to upload images of their w
 - **Metadata Storage**: Associated details (wear type, style category, brand name, color, item name, and gender) are stored in a database.
 - **Product Recommendations**: Based on the wear type of the selected product, the system recommends related products from a CSV dataset.
 - **Product Listing**: Displays recommended products with their images and details.
-- **Trend Analysis**: Analyzes trends based on user-uploaded images and social media data to recommend trending items.
+- **Trend Analysis**: Analyzes trends based on user-uploaded images and  data to recommend trending items.
 
 ## Project Structure
 
