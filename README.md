@@ -25,7 +25,7 @@ Trend Tailors is a web application that allows users to upload images of their w
    ```bash
    git clone https://github.com/menavipandey/Trend_Tailors.git
    cd Trend_Tailors
-2. **Backend Setup and run**
+2. **Backend run**
    * Ensure you have Python installed.
    * Navigate to the backend directory.
      ```bash
@@ -36,11 +36,11 @@ Trend Tailors is a web application that allows users to upload images of their w
    * Run the Flask server:
      ```bash
      python app.py
-3. Frontend Setup and run:
+3. Frontend run:
    * Ensure you have Node.js and npm installed.
    * Navigate to the frontend directory:
    * ```bash
-     cd ../frontend
+     cd frontend
    * Run the React development server:
      ```bash
      npm start
