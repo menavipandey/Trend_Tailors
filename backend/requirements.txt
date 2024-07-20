@@ -1,0 +1,13 @@
+Flask
+Werkzeug
+flask-cors
+opencv-python-headless
+numpy
+tensorflow
+sqlite3
+pandas
+keras
+scikit-learn
+selenium
+webdriver-manager
+requests
